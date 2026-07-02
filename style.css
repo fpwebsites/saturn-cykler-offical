@@ -1,0 +1,1389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f6f2;
+  color: #616161;
+}
+
+.container {
+  width: min(90%, 1100px);
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #b9b2a6;
+  color: white;
+  padding: 20px 0;
+}
+
+.header {
+  text-align: center;
+  justify-content: space-between;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.hero {
+  background-color: #f5f3ef;
+  margin: 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  margin-bottom: 25px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  background: #7e8a62;
+  color: white;
+  font-size: medium;
+  width: fit-content;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #7e8a62;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer nav {
+  color: #7e8a62;
+  padding-bottom: 2rem;
+}
+
+.footer a {
+  color: white;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.hero {
+  padding: 40px 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.grid {
+  grid-template-columns: 1fr;
+}
+
+.header .logo {
+  text-align: center;
+  margin: 0;
+  padding-top: 0.1rem;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card h4 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.card p {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.card a {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.kort {
+  margin-left: 0;
+}
+
+.kort iframe {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.kort p {
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-left: 0;
+}
+
+.kort h3 {
+  text-align: center;
+  margin-left: 0;
+}
+
+.kort h4 {
+  text-align: center;
+  padding-top: 1rem;
+  margin-left: 0;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+  padding-left: 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: #f2eee8;
+  color: #616161;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.card iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+h1 {
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+@font-face {
+  font-family: brødtekst;
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: overskrift;
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+p {
+  font-family: brødtekst;
+}
+
+ul {
+  font-family: brødtekst;
+}
+
+h1 {
+  font-family: overskrift;
+}
+
+h2 {
+  font-family: overskrift;
+}
+
+h3 {
+  font-family: overskrift;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  font-family: overskrift;
+}
+
+a {
+  font-family: brødtekst;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.kontakt p {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.kontakt h2 {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.kontakt h3 {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin-bottom: -1.5rem;
+  font-size: 3.5rem;
+}
+
+.hero h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: -0.5rem;
+}
+
+.om-os p {
+  margin-left: 2rem;
+}
+
+.menu p {
+  margin-left: 2rem;
+}
+
+.menu h2 {
+  margin-left: 2rem;
+}
+
+.menu p {
+  margin-left: 2rem;
+}
+
+.menu ul {
+  margin-left: 2rem;
+}
+
+.menu li {
+  margin-left: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: min(90%, 1200px);
+  margin: 0 auto;
+}
+
+.to-kolonner {
+  display: flex;
+  gap: 3rem;
+  margin: 4rem 0;
+  align-items: flex-start;
+}
+
+.kolonne {
+  flex: 1;
+}
+
+.kolonne img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+  .to-kolonner {
+    flex-direction: column;
+  }
+}
+
+.kontakt-formular {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #7e8a62;
+  color: white;
+  font-family: brødtekst;
+  border-radius: 16px;
+}
+
+.kontakt-formular h2 {
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.kontakt-formular form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.kontakt-formular input,
+.kontakt-formular textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #7e8a62;
+  border-radius: 10px;
+  font-family: inherit;
+  background-color: #f5f3ef;
+  margin-top: -0.8rem;
+}
+
+.kontakt-formular button {
+  background: white;
+  color: #616161;
+
+  font-family: overskrift;
+
+  font-size: medium;
+  width: fit-content;
+  align-self: center;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.kontakt-formular button:hover {
+  transform: translateY(-2px);
+}
+
+.kontakt-formular h2 {
+  text-align: center;
+  font-family: overskrift;
+  margin: 0;
+}
+
+.kontakt-formular label {
+  text-align: left;
+  font-family: overskrift;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #b9b2a6;
+  margin: 2rem 0;
+}
+
+.kort h4 {
+  text-align: center;
+}
+
+.kort a {
+  text-align: center;
+}
+
+.kort p {
+  text-align: center;
+}
+
+.kontakt .kort {
+  margin-left: 0;
+}
+
+.kontakt h1 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.billede-med-knap {
+  background-image: url("img/saturncykler1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+  padding-left: 4rem;
+}
+
+.billede-med-knap h1 {
+  text-align: center;
+}
+
+.billede-med-knap .button {
+  text-align: center;
+}
+
+.kontakt main a {
+  color: #7e8a62;
+  margin: 0;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.om-os h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 0;
+}
+
+.menu h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.header-indhold {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.burger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+    position: relative;
+    z-index: 1001;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 260px;
+    height: 100vh;
+
+    background: #b9b2a6;
+    padding: 6rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .footer nav a {
+    margin: 0;
+  }
+}
+
+.footer p {
+  text-align: center;
+  margin: 0;
+}
+
+.footer h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.prisliste {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+article {
+  margin-left: 0;
+}
+
+.kort a {
+  margin-left: 0;
+}
+
+.kort p {
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .header-indhold {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .burger {
+    display: block;
+    margin-left: auto;
+    position: relative;
+    z-index: 1001;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 260px;
+    height: 100vh;
+
+    background: #b9b2a6;
+    padding: 6rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    padding: 3rem 1.5rem;
+
+    align-items: center;
+    text-align: center;
+
+    background-position: center;
+  }
+
+  .hero h1 {
+    font-size: 2.3rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero .button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+.menu p {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.menu h2 {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.menu h3 {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.menu ul {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.menu li {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.om-os p {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.om-os h2 {
+  text-align: left;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.om-os h3 {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.kolonne {
+  margin-bottom: auto;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .billede-med-knap {
+    min-height: 60vh;
+    padding: 3rem 1.5rem;
+
+    align-items: center;
+    text-align: center;
+
+    background-position: center;
+  }
+
+  .billede-med-knap h1 {
+    font-size: 2.3rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .billede-med-knap h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .billede-med-knap .button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.om-os .to-kolonner {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.kontakt p {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.kontakt h3 {
+  text-align: center;
+  margin-left: 0%;
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.menu h1 {
+  margin-top: 1rem;
+}
+
+.card .button {
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  background: white;
+  color: black;
+  font-size: medium;
+  width: fit-content;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 1rem;
+}
+
+.card a {
+  color: white;
+}
+
+.card p {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.to-kolonner {
+  margin-top: auto;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+
+  min-height: calc(100vh - 90px);
+
+  display: flex;
+  justify-content: center;
+
+  color: white;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-indhold {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 100%;
+  height: 100%;
+
+  padding-left: 4rem;
+}
+
+.åbningstider {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/saturncykler1.webp");
+  aspect-ratio: 1 / 1;
+  width: 300px;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.hvor {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/satuncyklerbutik.webp");
+  aspect-ratio: 1 / 1;
+  width: 300px;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/ejerogcykel.webp");
+  aspect-ratio: 1 / 1;
+  width: 300px;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+h2 {
+  color: #7e8a62;
+}
+
+.hero h2 {
+  color: white;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+
+  z-index: 1;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  z-index: 0;
+}
+
+.hero-indhold {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 70vh;
+  }
+
+  .hero-indhold {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .hero h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero .button {
+    margin: 0 auto;
+  }
+}
+
+img {
+  margin-top: 1rem;
+}
+
+.card {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .grid {
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .card {
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
+
+  article {
+    margin-bottom: 1rem;
+  }
+
+  .to-kolonner {
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .kontakt-formular {
+    margin: 2rem auto;
+  }
+
+  img {
+    margin-top: -0.5rem;
+  }
+
+  .kolonne {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer {
+    margin-top: 0.5rem;
+  }
+}
+
+.tilbud {
+  margin: 0;
+  padding: 0;
+}
+
+.tilbud h2 {
+  color: white;
+}
+
+.tilbud .to-kolonner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+}
+
+.tilbud .billede {
+  background-image: url("img/Tilbud\ \(1\).webp");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding: 0%;
+}
+
+.tilbud .tekst {
+  background-image: url("img/grøn.webp");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: white;
+  padding: 0%;
+}
+
+.tilbud .tekst-indhold {
+  padding: 5rem;
+}
+
+.tilbud ul {
+  padding: 5rem;
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.tilbud h2 {
+  margin-bottom: -1.8rem;
+  margin-top: 0;
+}
+
+.tilbud h1 {
+  margin-bottom: 1rem;
+  margin-top: 0;
+
+  line-height: 1.1;
+}
+
+.tilbud .to-kolonner {
+  gap: 0;
+  column-gap: 0;
+}
+
+.tilbud .tekst-indhold .button {
+  background-color: white;
+  color: #616161;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .tilbud .to-kolonner {
+    grid-template-columns: 1fr;
+  }
+
+  .tilbud .billede {
+    min-height: 350px;
+  }
+
+  .tilbud .tekst {
+    min-height: auto;
+  }
+
+  .tilbud .tekst-indhold {
+    padding: 2rem;
+  }
+
+  .tilbud .button {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.tilbud ul {
+  padding: 2rem;
+}
+
+.to-kolonner {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.venstre {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.kontakt-card {
+  background: #ffffff;
+  border: 1px solid #e9e4dd;
+
+  border-radius: 20px;
+
+  padding: 2rem;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0;
+}
+
+.højre {
+  height: 100%;
+}
+
+.højre img {
+  width: 100%;
+  height: 100%;
+  max-height: 524px;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .to-kolonner {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .højre {
+    height: 350px;
+  }
+}
+
+.kontakt h1 {
+  margin-bottom: 2rem;
+}
+
+.menu h1 {
+  margin-bottom: 2rem;
+}
+.services-layout {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 2rem;
+  align-items: start;
+  margin: 2rem 0 4rem;
+}
+
+.services-venstre {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid #e9e4dd;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+.service-card h2 {
+  margin: 0 0 1rem;
+  color: #7e8a62;
+}
+
+.service-card p,
+.service-card li,
+.service-card ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.service-card ul {
+  padding-left: 1.3rem;
+}
+
+.service-card li {
+  margin-bottom: 0.75rem;
+}
+
+.services-højre {
+  height: 100%;
+}
+
+.services-højre img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .services-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1rem 0 2rem;
+  }
+
+  .services-højre {
+    height: 280px;
+  }
+
+  .services-højre img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .services-venstre {
+    gap: 1rem;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .menu h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+.produkter h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.produkter h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.allecykler h1 {
+  text-align: center;
+}
+
+.MB {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/mountainbike.webp");
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.El {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/elcykel.webp");
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.city {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/city.webp");
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.classic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/classic.webp");
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.fixie {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/fixie.webp");
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.børn {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/børn.webp");
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.løbecykel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("img/løbecykel.webp");
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.produkter h3 {
+  color: white;
+}
+
+.produkter .footer {
+  margin-top: 3rem;
+}
+
+.produkter h4 {
+  text-align: center;
+  align-items: center;
+}
+
+.card-brand {
+  background-color: #7e8a62;
+  color: white;
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.footer p {
+  text-align: center;
+  align-items: center;
+}
+
+.nav-menu {
+  gap: 0.3rem;
+}

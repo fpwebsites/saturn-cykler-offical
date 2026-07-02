@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Min hjemmeside</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="kontakt">
+    <header class="header">
+      <div class="container header-indhold">
+        <a href="index.html"> <img src="img/SATURN CYKLER-sort baggrund (1).png" alt="saturn logo" class="logo" /> </a>
+
+        <button class="burger" id="burger">☰</button>
+
+        <nav class="nav-menu" id="navMenu">
+          <a href="index.html">FORSIDE</a>
+          <a href="services.html">SERVICES</a>
+          <a href="produkter.html">PRODUKTER</a>
+          <a href="om-os.html">OM OS</a>
+          <a href="kontakt.html">KONTAKT</a>
+        </nav>
+      </div>
+      <script src="script.js"></script>
+    </header>
+    <main class="container kontakt-side">
+      <h1>Kontakt</h1>
+
+      <div class="to-kolonner">
+        <div class="venstre">
+          <article class="kontakt-card">
+            <h2>Kontaktoplysninger</h2>
+            <p>📞 28 87 83 11</p>
+            <p>✉️ Udfyld formularen nedenfor.</p>
+          </article>
+
+          <article class="kontakt-card">
+            <h2>Åbningstider</h2>
+            <p>Mandag–Fredag: 09.00–18.00</p>
+            <p>Lørdag: 09.00–16.00</p>
+            <p>Søndag: Lukket</p>
+          </article>
+
+          <article class="kontakt-card">
+            <h2>Adresse & CVR</h2>
+
+            <p>
+              <a href="https://www.google.com/maps/place/Saturn+Cykler/"> Finsensvej 43 B, 2000 Frederiksberg </a>
+            </p>
+
+            <p>CVR 38024140</p>
+          </article>
+        </div>
+
+        <div class="højre">
+          <img src="img/ejerogcykel.webp" alt="Saturn Cykler" />
+        </div>
+      </div>
+
+      <section class="kontakt-formular">
+        <h2>Kontaktformular</h2>
+
+        <form action="https://formspree.io/f/DIT-ID" method="POST">
+          <label for="navn">Navn</label>
+          <input type="text" id="navn" name="navn" required />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="besked">Besked</label>
+          <textarea id="besked" name="besked" rows="6" required></textarea>
+
+          <button type="submit">SEND BESKED</button>
+        </form>
+      </section>
+
+      <h3>Find os her</h3>
+      <article class="kort">
+        <p>
+          <a
+            href="https://www.google.com/maps/place/Saturn+Cykler/@55.6817462,12.3852024,12z/data=!4m22!1m15!4m14!1m6!1m2!1s0x465253c148f28e43:0x9fd35848ed35315c!2sSaturn+Cykler,+Finsensvej+43+B,+2000+Frederiksberg!2m2!1d12.5100926!2d55.6817509!1m6!1m2!1s0x465253c148f28e43:0x9fd35848ed35315c!2sSaturn+Cykler,+Finsensvej+43+B,+2000+Frederiksberg!2m2!1d12.5100926!2d55.6817509!3m5!1s0x465253c148f28e43:0x9fd35848ed35315c!8m2!3d55.6817509!4d12.5100926!16s%2Fg%2F1hc5xc4sn?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+            >Finsensvej 43 B, 2000 Frederiksberg</a
+          >
+        </p>
+        <div style="max-width: 1000px; margin: 0 auto">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71981.32808951348!2d12.385202439382947!3d55.681746208247276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253c148f28e43%3A0x9fd35848ed35315c!2sSaturn%20Cykler!5e0!3m2!1sda!2sdk!4v1782126007202!5m2!1sda!2sdk"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <h1>Information</h1>
+        <nav>
+          <a href="index.html">FORSIDE</a>
+
+          <a href="om-os.html">OM OS</a>
+          <a href="kontakt.html">KONTAKT</a>
+        </nav>
+      </div>
+      <p>© 2026 Saturn Cykler ApS</p>
+    </footer>
+  </body>
+</html>
