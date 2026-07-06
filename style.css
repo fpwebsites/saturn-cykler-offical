@@ -1115,17 +1115,14 @@ img {
     text-align: center;
   }
 
+  .tilbud ul {
+list-style: none;
+}
   .tilbud .button {
     text-align: center;
     align-items: center;
   }
-  
-  .tilbud ul {
-    list-style-type: none;
-    text-align: center;
-  }
 }
-
 
 .tilbud ul {
   padding: 2rem;
@@ -1401,60 +1398,23 @@ img {
   gap: 0.3rem;
 }
 
-/* PRODUKTER - MOBIL */
 @media (max-width: 768px) {
-  .produkter h1 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+  .produkter main.container {
+    width: 90%;
+    margin: 0 auto;
   }
 
-  
   .produkter .grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    justify-items: center;
   }
 
-
-  .produkter .card {
-    margin-top: 0;
-    padding: 1rem;
-    align-items: center;
-  }
-
-  .produkter h3 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-
-  .produkter h4 {
-    font-size: 1rem;
-    margin-top: 1rem;
-  }
-
-  .produkter .button {
+  .produkter .card,
+  .produkter .card-brand {
     width: 100%;
-    max-width: 220px;
-    margin: 1rem auto 0;
-    display: block;
-    text-align: center;
-  }
-
- 
-
-  /* Alle cykelbilleder */
-  .MB,
-  .El,
-  .city,
-  .classic,
-  .fixie,
-  .børn,
-  .løbecykel {
-    aspect-ratio: 4 / 3;
-    min-height: 220px;
-    padding: 1.5rem;
-    background-position: center;
-    align-items: center;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
