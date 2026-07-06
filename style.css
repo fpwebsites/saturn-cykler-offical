@@ -1114,15 +1114,19 @@ img {
     text-align: center;
   }
 
+  .tilbud ul {
+  padding: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
   .tilbud .button {
     text-align: center;
     align-items: center;
   }
 }
 
-.tilbud ul {
-  padding: 2rem;
-}
+
 
 .to-kolonner {
   display: grid;
