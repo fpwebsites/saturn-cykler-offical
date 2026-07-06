@@ -204,6 +204,8 @@ main {
   padding-left: 4rem;
 }
 
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -664,9 +666,10 @@ article {
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 60vh;
+   height: 100vh;
     padding: 3rem 1.5rem;
 
+  
     align-items: center;
     text-align: center;
 
