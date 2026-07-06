@@ -1455,7 +1455,9 @@ img {
   .produkter .classic
   .produkter .fixie
   .produkter .børn
-  .produkter .løbecykel {
+  .produkter .løbecykel
+  .produkter
+  .produkter .card {
     margin-left: 0;
     text-align: center;
     align-items: center;
