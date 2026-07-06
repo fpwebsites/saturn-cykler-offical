@@ -1448,9 +1448,17 @@ img {
   .produkter h2,
   .produkter h3,
   .produkter h4
-  .produkter img {
+  .produkter img
+  .produkter .MB
+  .produkter .El
+  .produkter .city
+  .produkter .classic
+  .produkter .fixie
+  .produkter .børn
+  .produkter .løbecykel {
     margin-left: 0;
     text-align: center;
+    align-items: center;
   }
 
 }
