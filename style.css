@@ -1472,23 +1472,29 @@ img {
 
 @media (max-width: 768px) {
 
-  .produkter .card {
-    margin: 0 auto;
-  }
-
+  .produkter,
+  .produkter p,
   .produkter ul,
-  .produkter li {
-    margin-left: 0;
-    padding-left: 0;
-    list-style-position: inside;
-    text-align: center;
-  }
-
+  .produkter li,
   .produkter h2,
   .produkter h3,
   .produkter h4,
-  .produkter p {
+  .produkter img,
+  .produkter .MB,
+  .produkter .El,
+  .produkter .city,
+  .produkter .classic,
+  .produkter .fixie,
+  .produkter .børn,
+  .produkter .løbecykel,
+  .produkter .card {
     margin-left: 0;
     text-align: center;
   }
+
+  .produkter .card {
+    align-items: center;
+    margin-left: 0;
+  }
+
 }
