@@ -1120,10 +1120,21 @@ img {
     align-items: center;
 }
 
+    .tilbud li {
+  padding: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
   .tilbud .button {
     text-align: center;
     align-items: center;
   }
+}
+
+
+  .tilbud ul {
+  padding: 2rem;
 }
 
 
@@ -1399,6 +1410,8 @@ img {
   .produkter h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    text-align: center;
+    align-items: center;
   }
 
   .produkter .grid {
@@ -1454,6 +1467,7 @@ img {
     min-height: 220px;
     padding: 1.5rem;
     background-position: center;
+    align-items: center;
   }
 }
 
