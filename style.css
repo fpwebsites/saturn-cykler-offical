@@ -1026,6 +1026,7 @@ img {
   }
 }
 
+
 .tilbud {
   margin: 0;
   padding: 0;
@@ -1114,30 +1115,24 @@ img {
     text-align: center;
   }
 
-  .tilbud ul {
-  padding: 2rem;
+  .tilbud .button {
     text-align: center;
     align-items: center;
-}
+  }
+    .tilbud ul {
+    text-align: center;
+    align-items: center;
+  }
 
     .tilbud li {
-  padding: 2rem;
-    text-align: center;
-    align-items: center;
-}
-
-  .tilbud .button {
     text-align: center;
     align-items: center;
   }
 }
 
-
-  .tilbud ul {
+.tilbud ul {
   padding: 2rem;
 }
-
-
 
 .to-kolonner {
   display: grid;
@@ -1410,10 +1405,14 @@ img {
   .produkter h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    text-align: center;
-    align-items: center;
   }
 
+  .produkter .side {
+        text-align: center;
+    align-items: center;
+    margin: auto;
+  }
+  
   .produkter .grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
