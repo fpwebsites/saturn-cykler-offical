@@ -1106,10 +1106,12 @@ img {
 
   .tilbud .tekst {
     min-height: auto;
+    text-align: center;
   }
 
   .tilbud .tekst-indhold {
     padding: 2rem;
+    text-align: center;
   }
 
   .tilbud .button {
@@ -1170,36 +1172,6 @@ img {
 
   .højre {
     height: 350px;
-    text-align: center;
-  
-    .højre p {
-    height: 350px;
-    text-align: center;
-     
-    .højre h1 {
-    height: 350px;
-    text-align: center;
-
-    .højre h2 {
-    height: 350px;
-    text-align: center;
-
-    .højre h3 {
-    height: 350px;
-    text-align: center;
-
-    .højre ul {
-    height: 350px;
-    text-align: center;
-
-   .højre li {
-    height: 350px;
-    text-align: center;
-
-    .højre .button {
-    height: 350px;
-    text-align: center;  
-    
   }
 }
 
@@ -1420,7 +1392,6 @@ img {
 
 /* PRODUKTER - MOBIL */
 @media (max-width: 768px) {
-
   .produkter h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -1470,31 +1441,10 @@ img {
   }
 }
 
-@media (max-width: 768px) {
 
-  .produkter,
-  .produkter p,
-  .produkter ul,
-  .produkter li,
-  .produkter h2,
-  .produkter h3,
-  .produkter h4,
-  .produkter img,
-  .produkter .MB,
-  .produkter .El,
-  .produkter .city,
-  .produkter .classic,
-  .produkter .fixie,
-  .produkter .børn,
-  .produkter .løbecykel,
-  .produkter .card {
-    margin-left: 0;
-    text-align: center;
-  }
 
-  .produkter .card {
-    align-items: center;
-    margin-left: 0;
-  }
 
-}
+
+
+
+
