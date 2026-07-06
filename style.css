@@ -1119,12 +1119,13 @@ img {
     text-align: center;
     align-items: center;
   }
-     .tilbud ul {
-    list-style-position: inside;
+  
+  .tilbud ul {
+    list-style-type: none;
     padding-left: 0;
-    margin: 1rem 0;
     text-align: center;
   }
+}
 
     .tilbud li {
     text-align: center;
@@ -1393,6 +1394,10 @@ img {
   padding: 1rem;
 }
 
+.card {
+  padding: 1rem;
+}
+
 .footer p {
   text-align: center;
   align-items: center;
@@ -1430,7 +1435,7 @@ img {
 
   .produkter .card {
     margin-top: 0;
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
   .produkter h3 {
