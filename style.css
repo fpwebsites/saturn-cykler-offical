@@ -1119,9 +1119,11 @@ img {
     text-align: center;
     align-items: center;
   }
-    .tilbud ul {
+     .tilbud ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 1rem 0;
     text-align: center;
-    align-items: center;
   }
 
     .tilbud li {
@@ -1418,11 +1420,11 @@ img {
     gap: 1.5rem;
   }
 
-  .produkter .section {
+  .produkter section {
     margin-left: 0;
   }
 
-   .produkter .article {
+   .produkter article {
     margin-left: 0;
   }
 
@@ -1450,9 +1452,7 @@ img {
     text-align: center;
   }
 
-  .produkter .container {
-    margin-left: 0;
-  }
+ 
 
   /* Alle cykelbilleder */
   .MB,
