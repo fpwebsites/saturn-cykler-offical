@@ -1419,6 +1419,13 @@ list-style: none;
     margin-left: auto;
     margin-right: auto;
   }
+  .produkter h2 {
+    margin-top: 1rem;
+    }
+  
+    .produkter section {
+      margin-bottom: 1rem;
+    }
 }
 
 
