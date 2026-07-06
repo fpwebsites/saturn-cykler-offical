@@ -1170,6 +1170,36 @@ img {
 
   .højre {
     height: 350px;
+    text-align: center;
+  
+    .højre p {
+    height: 350px;
+    text-align: center;
+     
+    .højre h1 {
+    height: 350px;
+    text-align: center;
+
+    .højre h2 {
+    height: 350px;
+    text-align: center;
+
+    .højre h3 {
+    height: 350px;
+    text-align: center;
+
+    .højre ul {
+    height: 350px;
+    text-align: center;
+
+   .højre li {
+    height: 350px;
+    text-align: center;
+
+    .højre .button {
+    height: 350px;
+    text-align: center;  
+    
   }
 }
 
@@ -1442,25 +1472,23 @@ img {
 
 @media (max-width: 768px) {
 
-  .produkter p,
-  .produkter ul,
-  .produkter li,
-  .produkter h2,
-  .produkter h3,
-  .produkter h4
-  .produkter img
-  .produkter .MB
-  .produkter .El
-  .produkter .city
-  .produkter .classic
-  .produkter .fixie
-  .produkter .børn
-  .produkter .løbecykel
-  .produkter
   .produkter .card {
-    margin-left: 0;
-    text-align: center;
-    align-items: center;
+    margin: 0 auto;
   }
 
+  .produkter ul,
+  .produkter li {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: center;
+  }
+
+  .produkter h2,
+  .produkter h3,
+  .produkter h4,
+  .produkter p {
+    margin-left: 0;
+    text-align: center;
+  }
 }
